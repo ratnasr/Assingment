@@ -1,0 +1,11 @@
+package com.prodapt.test;
+
+public class simpleInterest {
+	void interest(int p,int t,int r) {
+		int si,total;
+		si=(p*t*r)/100;
+		total = p+si;
+		System.out.println(si+p+ "is Total amount  to be payed");
+	}
+
+}

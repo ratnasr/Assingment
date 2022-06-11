@@ -1,0 +1,20 @@
+package com.prodapt.test;
+
+public class schoolRecords {
+	String school_Name;
+	int school_Id;
+	String school_Address;
+	void ddRecords(String a, int b, String c) {
+		school_Name = a;
+		school_Id = b;
+		school_Address = c;
+		
+	}
+	void displayRecord() {
+		System.out.println("school_Name: "+school_Name);
+		System.out.println("school_Id: "+school_Id);
+		System.out.println("school_Address:"+school_Address);
+		
+	}
+
+}

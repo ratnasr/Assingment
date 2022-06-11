@@ -1,0 +1,13 @@
+package com.prodapt.test;
+
+public class schoolrecordsTester {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		schoolRecords obj = new schoolRecords();
+		obj.ddRecords("Lucky", 7843, "Hyderabad");
+		obj.displayRecord();
+
+	}
+
+}
